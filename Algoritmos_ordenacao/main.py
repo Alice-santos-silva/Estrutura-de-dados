@@ -1,4 +1,6 @@
 from algoritmos.selectionSort import selection_sort
+from algoritmos.bubbleSort import bubble_sort
+
 if __name__ == '__main__':
 
     # Definindo a lista
@@ -12,4 +14,8 @@ if __name__ == '__main__':
 
     # BUBBLE SORT
 
-    lista_bubble = []
+    listaBubble = []
+
+    lista_bubble = bubble_sort(listaBubble)
+
+    print(f'lista com bubble sort: {lista_bubble}')
