@@ -9,3 +9,7 @@ if __name__ == '__main__':
 
     # Imprimindo o menor valor da lista
     print(f'lista ordenada com selection sort: {lista_selection}')
+
+    # BUBBLE SORT
+
+    lista_bubble = []
